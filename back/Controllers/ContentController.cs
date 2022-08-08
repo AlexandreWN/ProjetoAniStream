@@ -12,10 +12,10 @@ public class ContentController : ControllerBase
     [HttpGet("test")]
     public object test()
     {
-        var path = @"C:\Users\Aluno\Desktop\ProjetoAniStream\videoToStreamming\";
+        var path = @"C:\Users\nia1ct\Desktop\repositorio\ProjetoAniStream\videoToStreamming\";
         StreammingDBContext context = new StreammingDBContext();
 
-        for (int i = 0; i < 174; i++)
+        for (int i = 0; i < 57; i++)
         {
                var data = io.File.ReadAllBytes(path + $"Ronnie O'Sullivan Fastest 147{i}.ts");
 

@@ -3,11 +3,13 @@
 @inject IJSRuntime js
 
 <video id="video" controls></video>
+<video id="video2" controls></video>
 
 @code
 {
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         await js.InvokeAsync<string>("PlayVideo", "58");
+        await js.InvokeAsync<string>("PlayVideo2", "58");
     }
 }
