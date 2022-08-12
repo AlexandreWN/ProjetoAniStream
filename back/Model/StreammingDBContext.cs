@@ -22,7 +22,7 @@ namespace back.Model
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=JVLPC0565\\SQLEXPRESS;Initial Catalog=AniStream;Integrated Security=True");
+                optionsBuilder.UseSqlServer("Data Source=SNCCH01LABF104\\SQLEXPRESS;Initial Catalog=StreammingDB;Integrated Security=True");
             }
         }
 

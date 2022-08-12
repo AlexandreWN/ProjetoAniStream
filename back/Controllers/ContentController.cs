@@ -12,7 +12,7 @@ public class ContentController : ControllerBase
     [HttpGet("test")]
     public object test()
     {
-        var path = @"C:\Users\nia1ct\Desktop\repositorio\ProjetoAniStream\videoToStreamming\";
+        var path = @"C:\Users\Aluno\Desktop\ProjetoAniStream\videoToStreamming\";
         StreammingDBContext context = new StreammingDBContext();
 
         for (int i = 0; i < 57; i++)
