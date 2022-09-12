@@ -11,7 +11,7 @@ h1:focus {
 .content {
     padding-top: 25px;
     background-color: #1f1f1f;
-    height: calc(100vh - 100px);
+    height: 100vh;
 }
 
 .video{
